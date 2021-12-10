@@ -1,0 +1,7 @@
+#https://register.ysfreflector.de/installation
+#Step 1: Install Debian 9, 10, 11 and make sure it is up to date.
+#Step 2: Run this script
+#Step 3: Use systemd to control the service (systemctl start | stop | status | restart ysf
+# systemctl status ysfreflector
+#Lets start-------------------------------------------------------------------------------
+#
