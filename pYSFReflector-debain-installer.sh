@@ -41,9 +41,9 @@ fi
 DIRDIR=$(pwd)
 YSFREPO=https://github.com/ShaYmez/pYSFReflector.git
 YSFDASHREPO=https://github.com/dg9vh/YSFReflector-Dashboard.git
-DEP="wget git python3 pip apache2 php libapache2-mod-php"
+DEP="wget git python3 python3-pip apache2 php libapache2-mod-php"
 YSFINSTDIR=/root/reflector-install-files/ysfreflector
 YSFAPPDIR=/ysfreflector
 YSFDASDIR=/root/reflector-install-files/ysfdash
 YSFWEBDIR=/var/www/ysf
-
+#requirements.txt install
