@@ -25,5 +25,16 @@
 #Step 3: Use systemd to control the service (systemctl start | stop | status | restart ysf
 # systemctl status ysfreflector
 #Lets start-------------------------------------------------------------------------------
-#
+WHO=$(whoami)
+if [ "$WHO" != "root" ]
+then
+  echo ""
+  echo "You Must be logged in as root to run this script!!"
+  exit 0
+fi
+if [ ! -e "/etc/debian_version" ]
+then
+  echo ""
+  echo "This script is only tested in Debian/Ubuntu 9,10 & 11 x64 cpu Arch. Check System!!"
+  exit 0
 
