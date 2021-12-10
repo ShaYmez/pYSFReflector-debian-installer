@@ -37,4 +37,13 @@ then
   echo ""
   echo "This script is only tested in Debian/Ubuntu 9,10 & 11 x64 cpu Arch. Check System!!"
   exit 0
+fi
+DIRDIR=$(pwd)
+YSFREPO=https://github.com/ShaYmez/pYSFReflector.git
+YSFDASHREPO=https://github.com/dg9vh/YSFReflector-Dashboard.git
+DEP="wget git python3 pip apache2 php libapache2-mod-php"
+YSFINSTDIR=/root/reflector-install-files/ysfreflector
+YSFAPPDIR=/ysfreflector
+YSFDASDIR=/root/reflector-install-files/ysfdash
+YSFWEBDIR=/var/www/ysf
 
